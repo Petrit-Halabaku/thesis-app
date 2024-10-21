@@ -7,19 +7,20 @@ const Header: React.FC = () => {
       <Link to="/" className="text-2xl font-bold">
         Cod<span className="text-orange-500">r</span>
       </Link>
-      <nav className="hidden md:flex space-x-6">
+      <nav className="flex space-x-6">
         <Link to="/" className="hover:text-orange-500">
           Home
         </Link>
         <Link to="/about" className="hover:text-orange-500">
           About
         </Link>
-        <Link to="/privacy-policy" className="hover:text-orange-500">
+        {/* <Link to="/privacy-policy" className="hover:text-orange-500">
           Privacy Policy
         </Link>
-        {/* <Link to="/portfolio" className="hover:text-orange-500">
-          Portfolio
-        </Link>
+        <Link to="/terms-of-service" className="hover:text-orange-500">
+          Terms of Service
+        </Link> */}
+        {/* 
         <Link to="/blog" className="hover:text-orange-500">
           Blog
         </Link> */}
