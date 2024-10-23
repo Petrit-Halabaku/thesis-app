@@ -11,7 +11,7 @@ import Footer from "./components/Footer"; // Import the Footer component
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <main className="relative container mx-auto py-6 sm:px-4 flex flex-col items-center gap-4">
+      <main className="relative container mx-auto min-h-screen py-6 sm:px-4 flex flex-col items-center gap-4">
         <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />
